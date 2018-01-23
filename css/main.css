@@ -1092,7 +1092,8 @@ h1.intro-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #39b54a;
+  /*background-color: #39b54a;*/
+  background-color: #21618c;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1348,7 +1349,8 @@ h1.intro-header::before {
     width: 100%;
     right: auto;
     left: 0;
-    background-color: #111111;
+    /*background-color: #111111;*/
+    background-color: #21618c;
     padding: 120px 40px 54px;
   }
   #header-nav-wrap .header-main-nav {
@@ -1867,14 +1869,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: #39b54a;
+  /*color: #39b54a;*/
+  color: #21618c;
   font-size: 4.8rem;
 }
 
 .about-features .feature h3 {
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.9rem;
-  color: #151515;
+  /*color: #151515;*/
+  color: #21618c;
   margin-bottom: 3rem;
 }
 
@@ -2434,7 +2438,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-dots .owl-dot.active span,
 #testimonial-slider .owl-dots .owl-dot:hover span {
-  background-color: #39b54a;
+  /*background-color: #39b54a;*/
+  background-color: #21618c;
 }
 
 
@@ -2768,7 +2773,8 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: black;
+  /*background: black;*/
+  background-color: #21618c;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   text-transform: uppercase;
