@@ -827,13 +827,16 @@ button.large,
 button.stroke,
 .button.stroke {
   background: transparent !important;
-  color: #a5a5a5 !important;
+  /*color: #a5a5a5 !important;*/
+  color: #21618c; !important;
 }
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid #39b54a;
-  color: #39b54a;
+  /*border: 0.3rem solid #39b54a;*/
+  border: 0.3rem solid #21618c;
+  /*color: #39b54a;*/
+  color: #21618c;
 }
 
 button.pill,
@@ -2210,7 +2213,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .pricing-table .plan-block.primary .button.button-primary:hover,
 .pricing-table .plan-block.primary .button.button-primary:focus {
-  color: #39b54a;
+  /*color: #39b54a;*/
+  color: #21618c;
 }
 
 .pricing-table .plan-bottom-part {
