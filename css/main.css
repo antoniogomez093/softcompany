@@ -1117,10 +1117,19 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
+  .lugar iframe {
+    width: auto;
+    height: auto;
+  }
+  .lugar {
+    margin: 0 auto;
+  }
   h1.intro-header {
     font-size: 3.1rem;
   }
 }
+
+
 
 @media only screen and (max-width: 600px) {
   h1.intro-header {
