@@ -333,15 +333,54 @@
                                 <!--<a class="button button-primary large" href="">Solicitar</a>-->
                             </div>
                         </div>
-                    </div> <!-- end plan-wrap -->
+                    </div>
                 </div>
             </div> <!-- end pricing-table -->
-        </div> <!-- end pricing-content -->
+        </div>
+
+
         <div class="buttons" data-aos="fade-up"> <!-- boton de cotizar -->
-            <center><a href="#" class="smoothscroll button stroke">
+            <center><a type="submit"  onclick="mostrar()" href="#" class="smoothscroll button stroke">
                 <span class="icon-play" aria-hidden="true"></span>Cotizar otras opciones</a>
             </center>
         </div>
+
+        <div id="float" style="display:none;">
+          <form id="contact-form" class="contact" name="contact-form" method="post" action="formulario.php">
+            <div class="form-group">
+              <input type="text"  name="nombre" class="form-control name-field" required="required" placeholder="Nombre"></div>
+              <div class="form-group">
+                <input type="text"  name="apellido" class="form-control name-field" required="required" placeholder="Apellido"></div>
+                  <div class="form-group" >
+                    <input type="tel"name="celular" maxlength="8" placeholder="Celular"></div>
+                    <div class="form-group" >
+                      <input type="tel"name="telefono" maxlength="8" placeholder="Telefono"></div>
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control mail-field" required="required" placeholder="E-mail"></div>
+                      <div>
+                        <SELECT NAME="selCombo" SIZE=1 >
+                          <OPTION VALUE="APP_Movil">Aplicación móvil</OPTION>
+                          <OPTION VALUE="APPE_scritorio">Aplicación de escritorio</OPTION>
+                          <OPTION VALUE="APP_Web">Aplicación web</OPTION>
+                          <OPTION VALUE="Pagina_web">Página web</OPTION>
+                          <OPTION VALUE="otro">Otros</OPTION>
+                        </SELECT>
+                      </div>
+                      <div class="form-group">
+                        <textarea id="message" name="mensaje" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+              </form>
+              <div class="buttons" data-aos="fade-up">
+                  <center><a type="submit"  onclick="cerrar()" href="#" class="smoothscroll button stroke">
+                      <span class="icon-play" aria-hidden="true"></span>Cerrar</a>
+                  </center>
+              </div>
+            </div>
+
+
     </section> <!-- end pricing -->
 
 
@@ -505,6 +544,7 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/float.js"></script>
     <script src="js/flex.js"></script>
 
 </body>
