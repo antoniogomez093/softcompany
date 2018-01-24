@@ -1509,7 +1509,7 @@ h1.intro-header::before {
   display: block;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1706,10 +1706,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .home-image-right {
     padding-top: 18rem;
+    /**/
+
   }
   .home-image-right img {
     vertical-align: top;
     width: 70%;
+    /*aqui empiezo*/
+
+
   }
 }
 
@@ -1736,10 +1741,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 40%;
     padding-top: 120px;
+    /**/
+
   }
   .home-image-right img {
     vertical-align: top;
     width: 100%;
+    /**/
+
   }
 }
 
@@ -1773,6 +1782,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     transform: translateX(-50%);
     padding: 0;
     margin-bottom: -378px;
+
   }
 }
 
